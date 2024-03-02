@@ -1,0 +1,32 @@
+.position-relative {
+ position: relative;
+}
+
+.content-overlay {
+ opacity: 0;
+ transition: opacity 0.5s;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(0, 0, 0, 0.9);
+ color: white;
+ padding: 20px;
+}
+
+
+.position-relative:hover .content-overlay {
+ opacity: 1;
+}
+
+.content-overlay a {
+ text-decoration: none; /* Add underline on hover */
+ color: white;
+}
+
+.content-overlay a:hover {
+ text-decoration: none; /* Add underline on hover */
+ color: rgb(190, 190, 190);
+
+}
