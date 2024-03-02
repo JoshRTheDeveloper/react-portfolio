@@ -1,0 +1,20 @@
+.navbar-brand {
+ font-size: 40px;
+}
+
+.custom-navbar {
+ background-color: black; /* Custom background color */
+ color: #ffffff; /* Custom text color */
+ padding: 2rem 0; /* Custom padding */
+}
+
+.custom-nav-pills .nav-link {
+ color: #ffffff;
+}
+
+.custom-nav-pills .nav-link:hover {
+ color: rgb(178, 178, 178);
+ transform: scale(1.2);
+ 
+}
+
