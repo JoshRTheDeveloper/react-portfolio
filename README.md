@@ -23,7 +23,7 @@ A portfolio used to display my projects
 
 
 ## Screenshot
-![my screenshot](./assets/Screenshot.png).
+![my screenshot](public/screenshot.png).
 
 ## Contributors
 Bootcamp for starter code - Thanks
