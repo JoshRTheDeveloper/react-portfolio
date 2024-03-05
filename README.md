@@ -20,7 +20,7 @@ N/A
 A portfolio used to display my projects
 
 ## Deployment
-
+https://polite-truffle-2e08a8.netlify.app/
 
 ## Screenshot
 ![my screenshot](src/assets/screenshot.png).
