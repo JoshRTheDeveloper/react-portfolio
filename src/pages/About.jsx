@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import Invoicinator from '../assets/invoicinator.png'
-import noteTaker from '../assets/Note_taker.png'
+import noteTaker from '../assets/home.png'
 import onlyLaughs from '../assets/onlylaughs.png'
 import Weather from '../assets/Wheather.png'
 import Scheduler from '../assets/Scheduler.png'
@@ -24,10 +24,10 @@ const About = () => {
         
         <div className="col-4 p-4 position-relative" style={{ backgroundImage: `url('${noteTaker}')`, backgroundSize: "cover", height: "200px" }}>
           <div className="content-overlay">
-            <h2>Note Taker app</h2>
-            <a href="https://github.com/JoshRTheDeveloper/Note-Taker?tab=readme-ov-file">Github</a> 
+            <h2>Radiant Oasis Spa</h2>
+            <a href="https://github.com/Msteven5/Radiant-Oasis-Spa">Github</a> 
             <br />
-            <a href="https://agile-journey-87487-f728fc2837d4.herokuapp.com/notes">Deployment</a> 
+            <a href="https://radiant-oasis-spa-4df905e0f97b.herokuapp.com/">Deployment</a> 
           </div>
         </div>
       </div>
