@@ -1,0 +1,11 @@
+.resume-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px; /* Adjust the top margin as needed */
+}
+
+.resume-link {
+ margin-top: 20px; /* Adjust the top margin for the link as needed */
+}

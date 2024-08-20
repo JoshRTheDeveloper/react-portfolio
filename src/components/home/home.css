@@ -1,0 +1,346 @@
+body {
+ overflow-x: hidden;
+}
+
+html {
+ overflow-x: hidden;
+ width: 100vw;
+}
+
+.josh {
+height: 220px;
+ width: 200px;
+ object-fit: cover;
+ object-position: top;
+ border-radius: 100px;
+ box-shadow: 3px 3px 8px #000000;
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
+}
+
+.main-content {
+ display: flex;
+ padding-left: 40vw;
+ background-color: rgb(239, 239, 239);
+ color: #000000;
+ flex-direction: column;
+
+}
+
+
+
+.about {
+ display: flex;
+ justify-content: center !important;
+ flex-direction: column;
+ color: rgb(0, 0, 0);
+ padding: 50px;
+ margin-top: 100px;
+ line-height: 20px;
+ width: 70%;
+}
+
+.projects {
+ display: flex;
+ width: 70%;
+ padding: 50px;
+flex-direction: column;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-bottom: 100px;
+background-color: #ffffff;
+padding: 30px;
+color: rgb(0, 0, 0);
+border-radius: 50px;
+box-shadow: 3px 3px 8px #000000;
+}
+
+.invoicinator3000 button {
+ background-color: red;
+ color: white;
+ cursor: pointer;
+border: none;
+box-shadow: 1px 1px 2px black;
+margin: 10px;
+}
+
+.invoicinator3000 button:hover {
+ background-color: rgb(0, 0, 0);
+ color: white;
+ cursor: pointer;
+border: none;
+box-shadow: 1px 1px 2px black;
+transform: scale(1.1);
+}
+
+.about a {
+ cursor:default;
+}
+
+.about button {
+ background-color: #BF5700;
+ color: white;
+ cursor: pointer;
+border: none;
+box-shadow: 1px 1px 2px black;
+margin: 10px;
+}
+
+.about button:hover {
+ background-color: rgb(0, 0, 0);
+ color: white;
+ cursor: pointer;
+border: none;
+box-shadow: 1px 1px 2px black;
+transform: scale(1.1);
+}
+
+.res {
+ background-color: rgb(0, 0, 90) !important;
+
+}
+
+.res:hover {
+ background-color: rgb(0, 0, 34) !important;
+
+}
+
+
+
+ 
+ .invoicinator button {
+  background-color: #659bff;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px black;
+ margin: 10px;
+ }
+ 
+ .invoicinator button:hover {
+  background-color: #4a0000;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px #4a0000;
+ transform: scale(1.1);
+ }
+
+ .radiant-oasis button {
+  background-color: #a68e45;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px black;
+ margin: 10px;
+ }
+ 
+ .radiant-oasis button:hover {
+  background-color: #231a11;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px #231a11;
+ transform: scale(1.1);
+ }
+
+
+ .fourD button {
+  background-color: #4f79ad;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px black;
+ margin: 10px;
+ }
+ 
+ .fourD button:hover {
+  background-color: #231a11;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px #231a11;
+ transform: scale(1.1);
+ }
+
+ .quiz button {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px black;
+ margin: 10px;
+ }
+ 
+ .quiz button:hover {
+  background-color: #231a11;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px #231a11;
+ transform: scale(1.1);
+ }
+
+ .bullies button {
+  background-color: #389ed9;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px black;
+ margin: 10px;
+ }
+ 
+ .bullies button:hover {
+  background-color: #231a11;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px #231a11;
+ transform: scale(1.1);
+ }
+
+ .weather button {
+  background-color: #1c1b41;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px black;
+ margin: 10px;
+ }
+ 
+ .weather button:hover {
+  background-color: #231a11;
+  color: white;
+  cursor: pointer;
+ border: none;
+ box-shadow: 1px 1px 2px #231a11;
+ transform: scale(1.1);
+ }
+
+
+
+.technology-used {
+display: flex;
+flex-direction: row;
+gap: 50px;
+}
+
+.delete-marigin {
+ margin: 0px !important;
+}
+
+.scroll-container {
+ display: flex;
+ overflow-x: auto;
+ white-space: nowrap;
+ width: 100%;
+}
+
+
+
+
+.invoicinator3000-img {
+ display: inline-block;
+ width: 100%; /* Adjust the width as needed */
+ height: auto; /* Maintain aspect ratio */
+ object-fit: contain; /* Ensure the image covers the container */
+ margin-right: 10px; /* Optional: Add spacing between images */
+}
+
+.scroll-container::-webkit-scrollbar {
+ height: 8px; /* Height of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+ background-color: #888; /* Color of the scrollbar thumb */
+ border-radius: 4px; /* Roundness of the scrollbar thumb */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+ background-color: #555; /* Darker color on hover */
+}
+
+button {
+ height: 30px;
+ font-size: 15px;
+ background-color: rgb(233, 233, 233);
+
+ border-radius: 5px;
+
+}
+
+@media (max-width: 1060px) {
+ .main-content {
+  display: flex;
+ align-items: center;
+  padding-left: unset;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  flex-direction: column;
+ }
+
+ .projects {
+  width: 70%;
+  padding: 0px;
+ }
+
+ .card {
+  width: unset !important;
+ }
+
+
+}
+
+@media (max-width: 600px) {
+
+ .about {
+  font-size: 12px;
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 40px;
+ }
+
+.projects {
+ width: 90% !important;
+}
+
+
+.card {
+width: 90%;
+padding: 20px;
+}
+
+
+
+.card h2 {
+ font-size: 20px;
+}
+
+.card p {
+ font-size: 12px;
+}
+
+.card button {
+ font-size: 12px;
+ margin: 5px;
+}
+
+.technology-used {
+gap: 25px;
+}
+
+
+
+
+
+
+
+
+}
+
+
