@@ -20,7 +20,7 @@ function NavTabs() {
           <div className='mobile-split'>
             <div className='ham-split' >
 
-           
+          
             <div className='projects-div'>
               <a className='projects-titlea' href={res}>Resume</a>
             </div>

@@ -47,6 +47,8 @@ const Home = () => {
       <div className='resume' >
       <a href={cert} target="_blank"> <button>View Certification</button> </a>
       <a href={res} target="_blank"> <button className='res' >View Resume</button> </a>
+      <a href="https://github.com/JoshRTheDeveloper/react-portfolio" target="_blank"> <button className='git' >Github</button> </a>
+      <a href="mailto:therothservices@gmail.com"> <button className='email' >Email</button> </a>
       </div>
      
 
